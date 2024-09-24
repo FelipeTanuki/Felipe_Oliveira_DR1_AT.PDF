@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-y: auto;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url(foto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.cabecalho-link {
+  display: flex;
+  gap: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.cabecalho-link a {
+  color: black;
+  font-size: 16px;
+}
+
+.cabecalho-link a:hover {
+  color: #000000;
+  transition: 0.3s all;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border: 3px solid #000000;
+  color: #000000;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+button {
+  color: black;
+  background: transparent;
+  border: solid 3px black;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 16px;
+  width: 150px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.container-text {
+  padding: 20px 0 0 130px;
+}
+
+.container-projetos {
+  padding: 20px 0 0 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projetos-foto {
+  margin-top: 20px;
+}
+
+.projetos-foto h1 {
+  margin: 0;
+}
+
+.text h3 {
+  color: black;
+  font-size: 16px;
+}
+
+.text h1 {
+  color: black;
+  margin-top: 10px;
+}
+
+.text p {
+  color: #0f0f0f;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.redes-sociais a {
+  color: black;
+  margin-top: 10px;
+}
+
+.footer-button {
+  padding: 30px 0 0 130px;
+}
